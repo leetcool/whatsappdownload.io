@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
+
+body{
+	background: url("../images/bg_chat.jpg") no-repeat top 45px center;
+	min-height: 800px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	line-height: 30px;
+	color: white;
+}
+.container{
+	width: 540px;
+	max-width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#bar{
+	background: #2f4444;
+	border-top: 1px solid #445b5b;
+	min-height: 65px;
+	margin-bottom: 40px;
+	padding-top: 7px;
+}
+.chats{
+	background: #fcfbf6;
+	padding: 30px 25px 35px;
+	color: #2a2a2a;
+	margin-bottom: 25px;
+	position: relative;
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.chats:before{
+	content: "";
+	width: 16px;
+	height: 25px;
+	display: block;
+	background: url("../images/icoArrow.png") no-repeat;
+	position: absolute;
+	top: 10px;
+	left: -16px;
+}
+.chat1{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 38px;
+}
+.chat1 span{
+	color: #4abc34;
+}
+.chat2{
+	font-weight: 600;
+}
+.chat2 span{
+	color: #4abc34;
+}
+.btn{
+	background: #65dc4d; /* Old browsers */
+background: -moz-linear-gradient(top,  #65dc4d 0%, #4abc34 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#65dc4d), color-stop(100%,#4abc34)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #65dc4d 0%,#4abc34 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #65dc4d 0%,#4abc34 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #65dc4d 0%,#4abc34 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #65dc4d 0%,#4abc34 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65dc4d', endColorstr='#4abc34',GradientType=0 ); /* IE6-9 */
+display: inline-block;
+color: white !important;
+padding: 25px 20px 25px;
+font-size: 32px;
+line-height: 42px;
+font-weight: 700;
+text-decoration: none !important;
+border-radius: 3px;
+box-shadow: -1px 2px 2px rgba(0,0,0,0.3);
+width: 100%;
+margin-top: 45px;
+margin-bottom: 30px;
+text-align: center;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.3);;
+}
+.btn:hover{
+	background: #4abc34; /* Old browsers */
+background: -moz-linear-gradient(top,  #4abc34 0%, #65dc4d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4abc34), color-stop(100%,#65dc4d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4abc34 0%,#65dc4d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4abc34 0%,#65dc4d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4abc34 0%,#65dc4d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4abc34 0%,#65dc4d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4abc34', endColorstr='#65dc4d',GradientType=0 ); /* IE6-9 */
+}
+.timeChat{
+	font-size: 16px !important;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	color: #a9a79f !important;
+	font-weight: normal !important;
+}
+@media screen and (max-width: 400px){
+	body{
+		background: url("../images/bg_chat.jpg") repeat-y top center;
+	}
+}
